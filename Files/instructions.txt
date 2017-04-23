@@ -1,0 +1,36 @@
+
+
+
+Jogar é simples:
+
+  1. Para seguir determinado caminho, deve usar o comando 
+     > cd nome_diretoria
+
+     por exemplo (p.e.)
+     > cd direita
+
+  2. Para voltar para a diretoria anterior deve usar o comando
+     > cd ..
+
+
+Sempre  que entra numa diretoria, deve verificar o conteúdo com o  comando
+     > ls
+
+e  explorar  o  seu conteúdo com detalhe à procura de dicas.  Deve  também
+executar  o  ficheiro  com  extensão .exe,  que  lhe  dará  instruções  do
+mini-desafio que deve resolver para progredir. P.e.,
+     > ./1.exe
+
+
+O jogador tem muitos poderes especiais, já que pode usar comandos Linux ao
+longo  da  sua  jornada.  P.e., pode ver o  conteúdo de um  ficheiro  numa 
+diretoria com o comando 
+     > cat nome_ficheiro
+
+     p.e.
+     > cat dica.txt
+
+
+O  labirinto  tem uma profundidade  de 6 diretorias. Saberá  que  terminou 
+quando encontrar a diretoria FIM.
+

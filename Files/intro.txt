@@ -1,0 +1,13 @@
+
+
+
+O objetivo deste desafio é percorrer (e chegar ao fim de) um labirinto. 
+
+Este labirinto tem algumas particularidades importantes: 
+  1. é composto por diretorias;
+  2. o caminho só vai aparecendo à medida que se vai avançando;
+  3. o caminho é sempre diferente de cada vez que se joga;
+  4. só se consegue chegar ao fim se se forem resolvendo pequenos desafios
+     de codificação ao longo do caminho, que nos dão dicas de como avançar.
+
+
