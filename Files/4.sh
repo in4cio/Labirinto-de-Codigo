@@ -73,10 +73,10 @@ echo "Dica: as respostas às perguntas anteriores devem dar uma ajuda..."
 echo 
 echo -n "     "; echo -n $RESPOSTA | base64
 echo
-read -p "Nome do(a) cantor(a): " NOME
+read -p "Palavra-passe: " PASSWORD
 echo 
 
-if [ "$RESPOSTA" != "$NOME" ]; then
+if [ "$RESPOSTA" != "$PASSWORD" ]; then
 	echo "Resposta errada!"
 	echo 
 	exit 1

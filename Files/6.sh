@@ -24,8 +24,6 @@ echo
 echo "Sabendo  tudo isto, construa o comando que lhe permite decifrar o  ficheiro"
 echo "com o criptograma, e escreva o número que está lá dentro a seguir!"
 echo 
-read -p "Número: " NUMERO
-echo 
 
 if [ ! -f criptograma.aes ]; then
 	RESPOSTA=$(( RANDOM % 200 ))
@@ -36,6 +34,9 @@ if [ ! -f criptograma.aes ]; then
 else
 	RESPOSTA=`openssl enc -aes-128-ctr -K 123456789abcdef -in criptograma.aes -iv 0`
 fi
+
+read -p "Número: " NUMERO
+echo 
 
 if [ "$RESPOSTA" != "$NUMERO" ]; then
 	echo "Resposta errada! Recomece."
