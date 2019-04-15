@@ -4,7 +4,7 @@ Joginho para introdução à linha de comandos Linux e a problemas de codificaç
 ## Instalação
 Executar os seguintes comandos pela ordem apresentada:
 1. `git clone https://github.com/in4cio/Labirinto-de-Codigo.git`
-2. `cd Labirinto-de-Codigo/Files`
+2. `cd Labirinto-de-Codigo/Source-code`
 3. `chmod u+x base-install.sh`
 4. `./base-install.sh`
 5. `cd ..`

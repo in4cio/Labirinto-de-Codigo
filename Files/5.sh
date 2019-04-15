@@ -18,7 +18,7 @@ esac
 clear
 echo 
 echo "                   ..-''-....* Nível 5 *....-''-.."
-cat ../../../../Files/short-logo.txt
+cat ../../../../../Files/short-logo.txt
 echo
 echo
 echo "Parabéns:  Chegou  ao nível 5! Para chegar ao nível 6 terá de  responder  a"
@@ -85,7 +85,7 @@ if [ "$RESPOSTA" != "$MENSAGEM" ]; then
 	exit 1
 fi
 
-cp ../../../../../Files/6.sh ../../../../../Files/66.sh
+cat ../../../../../Files/6.sh >> ../../../../../Files/66.sh
 chmod 500 ../../../../../Files/66.sh
 
 echo 
@@ -95,6 +95,8 @@ case "$(( RANDOM % 2 ))" in
 	0)
 	echo "Siga pelo Alçapão!"
 	echo 
+	mkdir Alçapão/Escadas
+	mkdir Alçapão/Direita
     cp ../../../../../Files/6.exe Alçapão/6.exe
     chmod 100 Alçapão/6.exe
     mv ESTA-AQUI Alçapão/ESTA-AQUI
@@ -103,6 +105,8 @@ case "$(( RANDOM % 2 ))" in
 	1)
 	echo "Siga pela Esquerda!"
 	echo 
+	mkdir Esquerda/Escadas
+	mkdir Esquerda/Direita
     cp ../../../../../Files/6.exe Esquerda/6.exe
     chmod 100 Esquerda/6.exe
     mv ESTA-AQUI Esquerda/ESTA-AQUI

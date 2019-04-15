@@ -95,7 +95,7 @@ read -p "Resposta: " NUMERO
 echo
 echo 
 
-if [ $NUMERO -ne 12 ]; then
+if [ $NUMERO -ne 3 ]; then
 	echo "Resposta errada! Tente de novo."
 	echo 
 	exit 1
